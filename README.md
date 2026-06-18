@@ -6,8 +6,8 @@
 ---
 
 # Deployed Links
-**Frontend** - https://frontend-6a6w.onrender.com/
-**Backend** - https://connectbackend-p4db.onrender.com
+**Frontend** - connecthive-front.vercel.app
+**Backend** - https://connecthive-connectbackend.onrender.com
 
 ## 🌟 Features
 
@@ -48,8 +48,8 @@
 1️⃣ **Clone the repository**
 
 ```bash
-git clone https://github.com/Vaish-011/front.git
-git clone https://github.com/Vaish-011/connectbackend.git
+git clone https://github.com/rasika2114/Connecthive_front.git
+git clone https://github.com/rasika2114/Connecthive_connectbackend.git
 cd connecthive
 ````
 
