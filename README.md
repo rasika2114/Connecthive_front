@@ -101,6 +101,6 @@ We welcome contributions! Please follow these steps:
 For feedback, suggestions, or collaborations, reach out to:
 
 * **Project Owner:** Muskan Tomar, Rachita Laad, Rasika Kale, Janhavi Patil, Viditi Joshi
-* **Email:** [muskantomar43@gmail.com](mailto:muskantomar43@gmail.com) 
+* **Email:** [rasikakale2004@gmail.com](mailto:rasikakale2004@gmail.com) 
 * **GitHub:** [@rasika2114] (https://github.com/rasika2114)
 
