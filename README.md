@@ -6,7 +6,7 @@
 ---
 
 # Deployed Links
-**Frontend** - connecthive-front.vercel.app
+**Frontend** - https://connecthive-front.vercel.app/
 **Backend** - https://connecthive-connectbackend.onrender.com
 
 ## 🌟 Features
