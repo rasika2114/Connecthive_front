@@ -12,7 +12,7 @@ export default function Applicantprofile() {
   console.log(applicantID)
   const [profile, setProfile] = useState(null);
 
-  const BASE_URL = "https://connectbackend-p4db.onrender.com";
+  const BASE_URL = "https://connecthive-connectbackend.onrender.com";
   
 
   useEffect(() => {

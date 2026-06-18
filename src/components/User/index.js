@@ -10,7 +10,7 @@ export default function ProfilePage() {
   const [user, setUser] = useState(null);
   const [profile, setProfile] = useState(null);
 
-  const BASE_URL = "https://connectbackend-p4db.onrender.com";
+  const BASE_URL = "https://connecthive-connectbackend.onrender.com";
 
   useEffect(() => {
     const storedUser = JSON.parse(localStorage.getItem("user"));

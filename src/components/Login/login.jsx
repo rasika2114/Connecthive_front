@@ -10,7 +10,7 @@ function Login() {
     const [action, setAction] = useState('');
     const [loginData, setLoginData] = useState({ email: '', password: '' });
     const [registerData, setRegisterData] = useState({ name: '', email: '', password: '' });
-    const API_URL = "https://connectbackend-p4db.onrender.com"; 
+    const API_URL = "https://connecthive-connectbackend.onrender.com"; 
     const createAccountLink = () => {
         setAction(' active');
     };

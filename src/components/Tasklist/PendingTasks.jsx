@@ -6,7 +6,7 @@ import './TodaysTasks.css';
 function PendingTasks({ onTaskCompletedUpdate }) {
   const [tasks, setTasks] = useState([]);
   const [user, setUser] = useState(null);
-  const API_URL = "https://connectbackend-p4db.onrender.com"; 
+  const API_URL = "https://connecthive-connectbackend.onrender.com"; 
 
   
   // fetching pending tasks here.....

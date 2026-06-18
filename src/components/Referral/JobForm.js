@@ -6,7 +6,7 @@ import styles from "./styles/dark-theme.module.css";
 const JobForm = ({ fetchJobs }) => {
     const navigate = useNavigate();
     const location = useLocation();
-    const API_URL = "https://connectbackend-p4db.onrender.com"; 
+    const API_URL = "https://connecthive-connectbackend.onrender.com"; 
     const [user, setUser] = useState(null);
     const [token, setToken] = useState(null);
 

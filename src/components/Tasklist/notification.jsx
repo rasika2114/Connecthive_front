@@ -10,7 +10,7 @@ function NotificationComponent() {
     const [notifications, setNotifications] = useState([]);
     const [notifiedTasks, setNotifiedTasks] = useState(new Set());
     const [permissionGranted, setPermissionGranted] = useState(Notification.permission === "granted");
-    const API_URL = "https://connectbackend-p4db.onrender.com"; 
+    const API_URL = "https://connecthive-connectbackend.onrender.com"; 
     useEffect(() => {
         const storedUser = JSON.parse(localStorage.getItem("user"));
         const storedToken = localStorage.getItem("token");

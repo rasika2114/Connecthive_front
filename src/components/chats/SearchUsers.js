@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 function SearchUsers({ onSelectUser }) {
     const [query, setQuery] = useState(""); // User's search input
     const [users, setUsers] = useState([]); // List of matching users
-    const API_URL = "https://connectbackend-p4db.onrender.com"; 
+    const API_URL = "https://connecthive-connectbackend.onrender.com"; 
     useEffect(() => {
         if (query.length < 2) {
             setUsers([]);

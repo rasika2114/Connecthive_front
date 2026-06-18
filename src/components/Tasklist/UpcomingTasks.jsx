@@ -10,7 +10,7 @@ function UpcomingTasks() {
     const [userId, setUserId] = useState(null);
     const [token, setToken] = useState(null);
     const [editIndex, setEditIndex] = useState(null);
-    const API_URL = "https://connectbackend-p4db.onrender.com";
+    const API_URL = "https://connecthive-connectbackend.onrender.com";
 
     useEffect(() => {
         const storedUser = JSON.parse(localStorage.getItem('user'));

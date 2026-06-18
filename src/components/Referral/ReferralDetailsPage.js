@@ -10,7 +10,7 @@ const ReferralDetailsPage = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
   const [accepting, setAccepting] = useState(false);
-  const API_URL = "https://connectbackend-p4db.onrender.com";
+  const API_URL = "https://connecthive-connectbackend.onrender.com";
   useEffect(() => {
     const fetchReferralData = async () => {
       try {

@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 export default function ActivityPage() {
-  const API_BASE = "https://connectbackend-p4db.onrender.com/api/posts";
-  const FILE_BASE = "https://connectbackend-p4db.onrender.com";
+  const API_BASE = "https://connecthive-connectbackend.onrender.com/api/posts";
+  const FILE_BASE = "https://connecthive-connectbackend.onrender.com";
   const [posts, setPosts] = useState([]);
   const [userId, setUserId] = useState(null);
 

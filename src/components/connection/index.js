@@ -14,7 +14,7 @@ export default function ConnectPage() {
   }, []);
 
   const userId = user?.id;
-  const API_URL = "https://connectbackend-p4db.onrender.com"; 
+  const API_URL = "https://connecthive-connectbackend.onrender.com"; 
   // Fetch pending invitations
   useEffect(() => {
     if (!userId) return;

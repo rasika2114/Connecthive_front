@@ -7,7 +7,7 @@ const Post = () => {
     const [posts, setPosts] = useState([]);
     const [user, setUser] = useState(null);
     const [token, setToken] = useState("");
-    const API_URL = "https://connectbackend-p4db.onrender.com"; 
+    const API_URL = "https://connecthive-connectbackend.onrender.com"; 
     const [files, setFiles] = useState({
         photo: null,
         video: null,

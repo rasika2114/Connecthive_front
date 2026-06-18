@@ -8,7 +8,7 @@ export default function InvitationPage() {
   const navigate = useNavigate();
   const [user, setUser] = useState(null);
   const [invitations, setInvitations] = useState([]);
-  const API_URL = "https://connectbackend-p4db.onrender.com"; 
+  const API_URL = "https://connecthive-connectbackend.onrender.com"; 
 
   useEffect(() => {
       const storedUser = JSON.parse(localStorage.getItem("user"));

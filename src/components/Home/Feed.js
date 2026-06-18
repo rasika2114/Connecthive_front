@@ -11,7 +11,7 @@ function Feed() {
   const [stats, setStats] = useState({});
   const [comments, setComments] = useState({});
   const [newComment, setNewComment] = useState({});
-  const API_URL = "https://connectbackend-p4db.onrender.com"; 
+  const API_URL = "https://connecthive-connectbackend.onrender.com"; 
   const userId = JSON.parse(localStorage.getItem("user"))?.id;
 
   useEffect(() => {

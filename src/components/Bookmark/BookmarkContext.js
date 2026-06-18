@@ -3,7 +3,7 @@ import axios from "axios";
 
 const BookmarkContext = createContext();
 
-const API_URL = "https://connectbackend-p4db.onrender.com"; 
+const API_URL = "https://connecthive-connectbackend.onrender.com"; 
 
 export const BookmarkProvider = ({ children }) => {
   const [user, setUser] = useState(null);

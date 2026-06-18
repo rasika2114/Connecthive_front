@@ -16,7 +16,7 @@ function TodaysTasks() {
         const [showUpcomingTasks, setShowUpcomingTasks] = useState(false);
         const [userId, setUserId] = useState(null);
         const [token, setToken] = useState(null);
-        const API_URL = "https://connectbackend-p4db.onrender.com"; 
+        const API_URL = "https://connecthive-connectbackend.onrender.com"; 
         
     useEffect(() => {
         const storedUser = JSON.parse(localStorage.getItem('user'));
@@ -46,7 +46,7 @@ function TodaysTasks() {
                 try {
                     if(!client_id) return;
 
-                    const response = await axios.get(`https://connectbackend-p4db.onrender.com/api/tasks/task/today/${client_id}`, {
+                    const response = await axios.get(`https://connecthive-connectbackend.onrender.com/api/tasks/task/today/${client_id}`, {
                        headers: { Authorization: `Bearer ${token}` } 
                     });
 

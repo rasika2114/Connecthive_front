@@ -320,7 +320,7 @@ export default function EditProfile() {
 
     try {
         // If everything is valid, send data to the backend
-        const profileResponse = await fetch("https://connectbackend-p4db.onrender.com/api/user/add_profile", {
+        const profileResponse = await fetch("https://connecthive-connectbackend.onrender.com/api/user/add_profile", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ user_id: userId, ...profile }),
@@ -332,7 +332,7 @@ export default function EditProfile() {
     try{   // Add licenses
         await Promise.all(
             licenses.map((license) =>
-                fetch("https://connectbackend-p4db.onrender.com/api/user/add_license", {
+                fetch("https://connecthive-connectbackend.onrender.com/api/user/add_license", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({ user_id: userId, ...license }),
@@ -347,7 +347,7 @@ export default function EditProfile() {
         // Add education
         await Promise.all(
             education.map((edu) =>
-                fetch("https://connectbackend-p4db.onrender.com/api/user/add_education", {
+                fetch("https://connecthive-connectbackend.onrender.com/api/user/add_education", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({ user_id: userId, ...edu }),
@@ -364,7 +364,7 @@ export default function EditProfile() {
         // Add experience
         await Promise.all(
             Experience.map((exp) =>
-                fetch("https://connectbackend-p4db.onrender.com/api/user/add_experience", {
+                fetch("https://connecthive-connectbackend.onrender.com/api/user/add_experience", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({ user_id: userId, ...exp }),
@@ -381,7 +381,7 @@ export default function EditProfile() {
         // Add skills
         await Promise.all(
             skills.map((skill) =>
-                fetch("https://connectbackend-p4db.onrender.com/api/user/add_skill", {
+                fetch("https://connecthive-connectbackend.onrender.com/api/user/add_skill", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({ user_id: userId, skill_name: skill }),
@@ -397,7 +397,7 @@ export default function EditProfile() {
         // Add interests
         await Promise.all(
             interests.map((interest) =>
-                fetch("https://connectbackend-p4db.onrender.com/api/user/add_interest", {
+                fetch("https://connecthive-connectbackend.onrender.com/api/user/add_interest", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
                     body: JSON.stringify({ user_id: userId, interest_name: interest }),

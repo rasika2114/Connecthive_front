@@ -4,7 +4,7 @@ import styles from './styles/referral.module.css';
 import { useNavigate, useParams } from "react-router-dom";
 
 const RequestReferralForm = ({closeModal , handleReferralSubmit }) => {
-    const API_URL = "https://connectbackend-p4db.onrender.com"; 
+    const API_URL = "https://connecthive-connectbackend.onrender.com"; 
     const [formData, setFormData] = useState({
         name: "",
         email: "",

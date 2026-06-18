@@ -8,7 +8,7 @@ export default function LeaderBoardPage() {
   const [user, setUser] = useState(null);
   const [postLeaders, setPostLeaders] = useState([]);
   const [connectionLeaders, setConnectionLeaders] = useState([]);
-  const BASE_URL = "https://connectbackend-p4db.onrender.com";
+  const BASE_URL = "https://connecthive-connectbackend.onrender.com";
 
   useEffect(() => {
     const storedUser = JSON.parse(localStorage.getItem("user"));

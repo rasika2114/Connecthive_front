@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-const API_URI = "https://connectbackend-p4db.onrender.com"; 
+const API_URI = "https://connecthive-connectbackend.onrender.com"; 
 const API_URL = `${API_URI}/api/chat`;
 
 const Chat = () => {
